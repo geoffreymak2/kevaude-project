@@ -12,7 +12,7 @@ export default function team() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
-                Meet The Team
+                Notre Equipe
               </h4>
               <p
                 className="wow fadeInUp"
@@ -36,9 +36,9 @@ export default function team() {
 
               <div className="team_content">
                 <h4 className="team_name">
-                  <a href="#0">Tom Hanks.</a>
+                  <a href="#0">BOBOZO Bobo Newman.</a>
                 </h4>
-                <p>Head Of Ideas</p>
+                <p>Directeur Géneral</p>
                 <ul className="social">
                   <li>
                     <a href="#0">

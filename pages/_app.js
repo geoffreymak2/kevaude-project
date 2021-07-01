@@ -5,8 +5,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <meta charset="utf-8" />
-        <title>Simple - Bootstrap 5 Website Template</title>
+        <meta charSet="utf-8" />
+        <title>Groupe Kevaude</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />

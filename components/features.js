@@ -12,15 +12,15 @@ export default function features() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
-                Why Choose Us
+                Pourquoi nous choisir ?
               </h4>
               <p
                 className="wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
               >
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt labor dolore.
+                Nous nous taillons une place de choix et non le moindre dans le
+                secteur des hydrocarbures dans le monde
               </p>
             </div>
           </div>

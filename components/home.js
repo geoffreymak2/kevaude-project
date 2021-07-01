@@ -32,12 +32,12 @@ export default function home() {
                   <ul id="nav" className="navbar-nav ms-auto">
                     <li className="nav-item">
                       <a className="page-scroll active" href="#home">
-                        Home
+                        Accueil
                       </a>
                     </li>
                     <li className="nav-item">
                       <a className="page-scroll" href="#about">
-                        About
+                        A propos
                       </a>
                     </li>
                     <li className="nav-item">
@@ -47,12 +47,12 @@ export default function home() {
                     </li>
                     <li className="nav-item">
                       <a className="page-scroll" href="#portfolio">
-                        Gallery
+                        Gallerie
                       </a>
                     </li>
                     <li className="nav-item">
                       <a className="page-scroll" href="#team">
-                        Team
+                        Equipe
                       </a>
                     </li>
                     <li className="nav-item">
@@ -76,7 +76,7 @@ export default function home() {
       <div className="header_hero">
         <div
           className="single_hero bg_cover d-flex align-items-center"
-          style={{ backgroundImage: "url(/images/hero.jpg)" }}
+          style={{ backgroundImage: "url(/images/portfolio-4.jpeg)" }}
         >
           <div className="container">
             <div className="row justify-content-center">
@@ -87,18 +87,18 @@ export default function home() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.2s"
                   >
-                    Simple Bootstrap 5<br /> Website Template
+                    Commercialisation des Produits Pétroliers Raffinés
                   </h2>
                   <p
                     className="wow fadeInUp"
                     data-wow-duration="1.3s"
                     data-wow-delay="0.5s"
                   >
-                    A super simple website template based on Bootstrap 5 and
-                    HTML5, comes with all essential{" "}
-                    <br className="d-none d-xl-block" /> elements & features to
-                    get started and ready to use for almost any type of business
-                    websites.
+                    Nous commercialisons les produits pétroliers raffinés à
+                    travers notre résau de distribution et nos aires
+                    d'approvisionnement dans le port du Pool Malebo, et nos
+                    unités fluviales assurant une distribution dans le Grand
+                    Equateur.
                   </p>
                   <a
                     href="#features"
@@ -106,7 +106,7 @@ export default function home() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.8s"
                   >
-                    Explore
+                    Explorer
                   </a>
                 </div>
               </div>

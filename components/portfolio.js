@@ -12,7 +12,7 @@ export default function portfolio() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
-                Our Portfolio
+                Notre Gallerie
               </h4>
               <p
                 className="wow fadeInUp"
@@ -66,7 +66,7 @@ export default function portfolio() {
           data-wow-duration="1.3s"
           data-wow-delay="0.4s"
         >
-          <img src="/images/portfolio-3.jpg" alt="portfolio" />
+          <img src="/images/portfolio-3.jpeg" alt="portfolio" />
           <div className="portfolio_content">
             <ul className="meta">
               <li>
@@ -83,7 +83,7 @@ export default function portfolio() {
           data-wow-duration="1.3s"
           data-wow-delay="0.5s"
         >
-          <img src="/images/portfolio-4.jpg" alt="portfolio" />
+          <img src="/images/portfolio-4.jpeg" alt="portfolio" />
           <div className="portfolio_content">
             <ul className="meta">
               <li>
@@ -100,7 +100,7 @@ export default function portfolio() {
           data-wow-duration="1.3s"
           data-wow-delay="0.2s"
         >
-          <img src="/images/portfolio-5.jpg" alt="portfolio" />
+          <img src="/images/portfolio-5.jpeg" alt="portfolio" />
           <div className="portfolio_content">
             <ul className="meta">
               <li>

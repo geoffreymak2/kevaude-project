@@ -16,7 +16,7 @@ export default function contact() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
-                Contact Us
+                Nous contacter
               </h4>
               <p
                 className="wow fadeInUp"
@@ -99,7 +99,7 @@ export default function contact() {
             <div className="col-lg-12">
               <div className="single_form text-center">
                 <button className="main-btn" type="submit">
-                  SUBMIT
+                  Envoyer
                 </button>
               </div>
             </div>

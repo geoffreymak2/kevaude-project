@@ -6,9 +6,9 @@ export default function footer() {
       <div className="container">
         <div className="footer_wrapper text-center d-lg-flex align-items-center justify-content-between">
           <p className="credit">
-            Designed and Developed by{" "}
-            <a href="https://uideck.com" rel="nofollow">
-              UIdeck
+            Développé par{" "}
+            <a href="https://mbokart-concept.net" rel="nofollow">
+              Mbok'art Concept
             </a>
           </p>
           <div className="footer_social pt-15">

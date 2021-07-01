@@ -4,10 +4,10 @@ import Features from "../components/features";
 import About from "../components/about";
 import Services from "../components/services";
 import Portfolio from "../components/portfolio";
-import Pricing from "../components/pricing";
+// import Pricing from "../components/pricing";
 import Team from "../components/team";
-import Testimonial from "../components/testimonial";
-import Blog from "../components/blog";
+// import Testimonial from "../components/testimonial";
+// import Blog from "../components/blog";
 import Contact from "../components/contact";
 // import Footer from "../components/footer";
 import BackToTop from "../components/backToTop";
@@ -21,10 +21,10 @@ export default function HomePage() {
       <About />
       <Services />
       <Portfolio />
-      <Pricing />
+      {/* <Pricing /> */}
       <Team />
-      <Testimonial />
-      <Blog />
+      {/* <Testimonial /> */}
+      {/* <Blog /> */}
       <Contact />
       {/* <Footer /> */}
       <BackToTop />

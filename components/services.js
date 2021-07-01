@@ -12,15 +12,15 @@ export default function services() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
-                Our Services
+                Nos Services
               </h4>
               <p
                 className="wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
               >
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt labor dolore.
+                Nous avons pour secteurs d'activité prioritaire, le trading
+                pétrolier et l'affrètement des unités fluviales.
               </p>
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function services() {
               data-wow-delay="0.2s"
             >
               <i className="lni lni-briefcase"></i>
-              <h4 className="features_title">Digital Business</h4>
+              <h4 className="features_title">Trading Pétrolier</h4>
               <p>
                 Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
                 eirmod tempor invidunt labor dolore magna .
@@ -47,7 +47,9 @@ export default function services() {
               data-wow-delay="0.3s"
             >
               <i className="lni lni-clipboard"></i>
-              <h4 className="features_title">Startup Business</h4>
+              <h4 className="features_title">
+                Affrètement des unités fluviales
+              </h4>
               <p>
                 Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
                 eirmod tempor invidunt labor dolore magna .
@@ -61,7 +63,7 @@ export default function services() {
               data-wow-delay="0.4s"
             >
               <i className="lni lni-target-revenue"></i>
-              <h4 className="features_title">Business Investment</h4>
+              <h4 className="features_title">Agro-Alimentaire</h4>
               <p>
                 Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
                 eirmod tempor invidunt labor dolore magna .
@@ -75,7 +77,7 @@ export default function services() {
               data-wow-delay="0.2s"
             >
               <i className="lni lni-invention"></i>
-              <h4 className="features_title">Business Solutions</h4>
+              <h4 className="features_title">Approvisionnement en Ciment</h4>
               <p>
                 Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
                 eirmod tempor invidunt labor dolore magna .
@@ -89,7 +91,9 @@ export default function services() {
               data-wow-delay="0.3s"
             >
               <i className="lni lni-bar-chart"></i>
-              <h4 className="features_title">Business Analysis</h4>
+              <h4 className="features_title">
+                Fournitures et Commercialisation
+              </h4>
               <p>
                 Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
                 eirmod tempor invidunt labor dolore magna .
@@ -103,7 +107,9 @@ export default function services() {
               data-wow-delay="0.4s"
             >
               <i className="lni lni-calendar"></i>
-              <h4 className="features_title">Consulting Business</h4>
+              <h4 className="features_title">
+                Approvisionnement en Hydrocarbures
+              </h4>
               <p>
                 Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
                 eirmod tempor invidunt labor dolore magna .

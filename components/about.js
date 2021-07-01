@@ -14,27 +14,27 @@ export default function about() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.2s"
                   >
-                    About Our Creative Proccess
+                    Qui sommes nous ?
                   </h4>
                   <p
                     className="wow fadeInUp"
                     data-wow-duration="1.3s"
                     data-wow-delay="0.4s"
                   >
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    dianonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                    justo duo dolores et erebum
+                    Face aux grandes mutations énergetiques de l' heure, nous
+                    nous taillons une place de choix et non le moindre dans le
+                    secteur des hydrocarbures dans le monde. Aguerris et
+                    déterminé, nous le sommes.
                   </p>
                   <p
                     className="wow fadeInUp"
                     data-wow-duration="1.3s"
                     data-wow-delay="0.6s"
                   >
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore etdolore maali
-                    quyam erat, sed diam voluptua. At vero eos et accusam et
-                    justo duo dolores
+                    GROUPE KEVAUDE se veut être en position d'avant-gardiste
+                    dans le secteur des hydrocarbures, trading et
+                    Commercialisation. Tels est l'objectif assigné à l' horizon
+                    2025.
                   </p>
                 </div>
                 <a
@@ -43,7 +43,7 @@ export default function about() {
                   data-wow-duration="1.3s"
                   data-wow-delay="0.7s"
                 >
-                  Learn More
+                  Lire plus
                 </a>
               </div>
             </div>
@@ -54,11 +54,11 @@ export default function about() {
           className="about_image bg_cover wow fadeInLeft"
           data-wow-duration="1.3s"
           data-wow-delay="0.2s"
-          style={{ backgroundImage: "url(/images/about.jpg)" }}
+          style={{ backgroundImage: "url(/images/portfolio-3.jpeg)" }}
         >
           <div className="image_content">
             <h4 className="experience">
-              <span>5</span> Years of Experience
+              <span>5</span> ans d'experiances
             </h4>
           </div>
         </div>
