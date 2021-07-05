@@ -25,7 +25,7 @@ export default function HomePage() {
       <Team />
       {/* <Testimonial /> */}
       {/* <Blog /> */}
-      <Contact />
+      {/* <Contact /> */}
       {/* <Footer /> */}
       <BackToTop />
     </>

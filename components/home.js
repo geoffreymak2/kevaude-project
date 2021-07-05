@@ -76,7 +76,7 @@ export default function home() {
       <div className="header_hero">
         <div
           className="single_hero bg_cover d-flex align-items-center"
-          style={{ backgroundImage: "url(/images/portfolio-4.jpeg)" }}
+          style={{ backgroundImage: "url(/images/hero.jpeg)" }}
         >
           <div className="container">
             <div className="row justify-content-center">
@@ -87,18 +87,16 @@ export default function home() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.2s"
                   >
-                    Commercialisation des Produits Pétroliers Raffinés
+                    Aguerris et déterminés, <br /> Nous le sommes
                   </h2>
                   <p
                     className="wow fadeInUp"
                     data-wow-duration="1.3s"
                     data-wow-delay="0.5s"
                   >
-                    Nous commercialisons les produits pétroliers raffinés à
-                    travers notre résau de distribution et nos aires
-                    d'approvisionnement dans le port du Pool Malebo, et nos
-                    unités fluviales assurant une distribution dans le Grand
-                    Equateur.
+                    Face aux grandes mutations énergetiques de l' heure, nous
+                    nous taillons une place de choix et non le moindre dans le
+                    secteur des hydrocarbures dans le monde.
                   </p>
                   <a
                     href="#features"

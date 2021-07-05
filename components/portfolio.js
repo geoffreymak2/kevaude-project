@@ -27,7 +27,7 @@ export default function portfolio() {
         </div>
       </div>
       <div className="portfolio_wrapper d-flex flex-wrap">
-        <div
+        {/* <div
           className="single_portfolio wow fadeInUp"
           data-wow-duration="1.3s"
           data-wow-delay="0.2s"
@@ -61,6 +61,7 @@ export default function portfolio() {
             <h5 className="portfolio_title">Bootstrap 5 Project</h5>
           </div>
         </div>
+        */}
         <div
           className="single_portfolio wow fadeInUp"
           data-wow-duration="1.3s"
@@ -117,7 +118,7 @@ export default function portfolio() {
           data-wow-duration="1.3s"
           data-wow-delay="0.3s"
         >
-          <img src="/images/portfolio-6.jpg" alt="portfolio" />
+          <img src="/images/portfolio-6.jpeg" alt="portfolio" />
           <div className="portfolio_content">
             <ul className="meta">
               <li>
@@ -134,7 +135,7 @@ export default function portfolio() {
           data-wow-duration="1.3s"
           data-wow-delay="0.4s"
         >
-          <img src="/images/portfolio-7.jpg" alt="portfolio" />
+          <img src="/images/portfolio-7.jpeg" alt="portfolio" />
           <div className="portfolio_content">
             <ul className="meta">
               <li>
@@ -151,7 +152,7 @@ export default function portfolio() {
           data-wow-duration="1.3s"
           data-wow-delay="0.5s"
         >
-          <img src="/images/portfolio-8.jpg" alt="portfolio" />
+          <img src="/images/portfolio-8.jpeg" alt="portfolio" />
           <div className="portfolio_content">
             <ul className="meta">
               <li>

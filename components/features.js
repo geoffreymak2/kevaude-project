@@ -33,10 +33,11 @@ export default function features() {
               data-wow-delay="0.2s"
             >
               <i className="lni lni-layers"></i>
-              <h4 className="features_title">Bootstrap 5 Based</h4>
+              <h4 className="features_title">La Qualité de Nos Produits</h4>
               <p>
-                Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt labor dolore magna .
+                Le Groupe Kevaude commercialise les produits petroliers raffinés
+                à travers ses reseaux de distribution et ses aires
+                d'approvisionnement dans les ports du Pool Malebo.
               </p>
             </div>
           </div>
@@ -47,10 +48,11 @@ export default function features() {
               data-wow-delay="0.4s"
             >
               <i className="lni lni-layout"></i>
-              <h4 className="features_title">Clean Design</h4>
+              <h4 className="features_title">La Livraison de Nos Produits</h4>
               <p>
-                Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt labor dolore magna .
+                Nos unités fluviales assurent une distribution dans le Grand
+                Equateur et dans tout le pays en assurant une autonomie en
+                produits et de surcroit le désenclavement des zones forestières.
               </p>
             </div>
           </div>
@@ -61,10 +63,11 @@ export default function features() {
               data-wow-delay="0.6s"
             >
               <i className="lni lni-bolt"></i>
-              <h4 className="features_title">Cutting-edge Features</h4>
+              <h4 className="features_title">Nos Objectif</h4>
               <p>
-                Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt labor dolore magna .
+                Défiant toute concurrence liée au prix et participe à la
+                reconstitution du pays par l'aménagement des infrastructures de
+                base dans le Sud-Ubangi et au Nord-Ubangi.
               </p>
             </div>
           </div>
