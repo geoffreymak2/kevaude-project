@@ -14,6 +14,7 @@ import Contact from "../components/contact";
 // import Footer from "../components/footer";
 import BackToTop from "../components/backToTop";
 import Counter from "../components/counter";
+import Blog from "../components/newBlog";
 
 export default function HomePage() {
   return (
@@ -26,9 +27,9 @@ export default function HomePage() {
       <Portfolio />
       <Counter />
       {/* <Pricing /> */}
-      <Team />
+      {/* <Team /> */}
       {/* <Testimonial /> */}
-      {/* <Blog /> */}
+      <Blog />
       {/* <Contact /> */}
       {/* <Footer /> */}
       <BackToTop />

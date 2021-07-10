@@ -5,102 +5,102 @@ export default function newFooter() {
     <>
       <section
         id="contact"
-        class="section"
+        className="section"
         data-stellar-background-ratio="-0.2"
       >
-        <div class="contact-form">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-sm-6 col-xs-12">
-                <div class="contact-us">
+        <div className="contact-form">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 col-sm-6 col-xs-12">
+                <div className="contact-us">
                   <h3>Nous Contacter</h3>
-                  <div class="contact-address">
-                    <p>Kinshasa, Sud-Ubangi, Nord-Ubangi </p>
-                    {/* <p class="phone">
+                  <div className="contact-address">
+                    <p>Kinshasa, Gémena, Lubumbashi, Lualaba </p>
+                    {/* <p className="phone">
                       Phone: <span>(+94 123 456 789)</span>
                     </p> */}
-                    <p class="email">
-                      E-mail: <span>(info@groupekevaude.com)</span>
+                    <p className="email">
+                      E-mail: <span>(infos@groupekevaude.com)</span>
                     </p>
                   </div>
-                  <div class="social-icons">
+                  <div className="social-icons">
                     <ul>
-                      <li class="facebook">
+                      <li className="facebook">
                         <a href="#">
-                          <i class="fa fa-facebook"></i>
+                          <i className="fa fa-facebook"></i>
                         </a>
                       </li>
-                      <li class="twitter">
+                      <li className="twitter">
                         <a href="#">
-                          <i class="fa fa-twitter"></i>
+                          <i className="fa fa-twitter"></i>
                         </a>
                       </li>
-                      <li class="google-plus">
+                      <li className="google-plus">
                         <a href="#">
-                          <i class="fa fa-google-plus"></i>
+                          <i className="fa fa-google-plus"></i>
                         </a>
                       </li>
-                      {/* <li class="linkedin">
+                      {/* <li className="linkedin">
                         <a href="#">
-                          <i class="fa fa-linkedin"></i>
+                          <i className="fa fa-linkedin"></i>
                         </a>
                       </li>
-                      <li class="dribbble">
+                      <li className="dribbble">
                         <a href="#">
-                          <i class="fa fa-dribbble"></i>
+                          <i className="fa fa-dribbble"></i>
                         </a>
                       </li> */}
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-sm-6 col-xs-12">
-                <div class="contact-block">
+              <div className="col-lg-6 col-sm-6 col-xs-12">
+                <div className="contact-block">
                   <form id="contactForm">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group">
+                    <div className="row">
+                      <div className="col-md-12">
+                        <div className="form-group">
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             id="name"
                             name="name"
                             placeholder="Votre Nom"
                             required
                             data-error="Renseigner votre nom !"
                           />
-                          <div class="help-block with-errors"></div>
+                          <div className="help-block with-errors"></div>
                         </div>
                       </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
+                      <div className="col-md-12">
+                        <div className="form-group">
                           <input
                             type="text"
                             placeholder="Votre Adress Email"
                             id="email"
-                            class="form-control"
+                            className="form-control"
                             name="name"
                             required
                             data-error="Renseigner votre email !"
                           />
-                          <div class="help-block with-errors"></div>
+                          <div className="help-block with-errors"></div>
                         </div>
                       </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
+                      <div className="col-md-12">
+                        <div className="form-group">
                           <textarea
-                            class="form-control"
+                            className="form-control"
                             id="message"
                             placeholder="Votre Message"
                             rows="8"
                             data-error="Renseigner votre message !"
                             required
                           ></textarea>
-                          <div class="help-block with-errors"></div>
+                          <div className="help-block with-errors"></div>
                         </div>
-                        <div class="submit-button text-center">
+                        <div className="submit-button text-center">
                           <button
-                            class="btn btn-common"
+                            className="btn btn-common"
                             id="submit"
                             type="submit"
                           >
@@ -108,9 +108,9 @@ export default function newFooter() {
                           </button>
                           <div
                             id="msgSubmit"
-                            class="h3 text-center hidden"
+                            className="h3 text-center hidden"
                           ></div>
-                          <div class="clearfix"></div>
+                          <div className="clearfix"></div>
                         </div>
                       </div>
                     </div>
@@ -123,34 +123,34 @@ export default function newFooter() {
       </section>
 
       <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <ul class="footer-links">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-sm-6 col-xs-12">
+              <ul className="footer-links">
                 <li>
-                  <a className="page-scroll" href="#home">
+                  <a className="" href="#home">
                     Accueil
                   </a>
                 </li>
                 <li>
-                  <a className="page-scroll" href="#services">
+                  <a className="" href="#services">
                     Services
                   </a>
                 </li>
                 <li>
-                  <a className="page-scroll" href="#about">
+                  <a className="" href="#about">
                     A propos
                   </a>
                 </li>
                 <li>
-                  <a className="page-scroll" href="#contact">
+                  <a className="" href="#contact">
                     Contact
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <div class="copyright">
+            <div className="col-lg-6 col-sm-6 col-xs-12">
+              <div className="copyright">
                 <p>
                   Tous droit reservé &copy; 2021 - Dévelopé par{" "}
                   <a rel="nofollow" href="https://mbokart-concept.net">

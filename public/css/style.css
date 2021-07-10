@@ -1929,6 +1929,76 @@ button:focus {
 }
 
 /* ==========================================================================
+  13. Blog 
+   ========================================================================== */
+#blog .blog-item-wrapper {
+  background: #fff;
+  border-radius: 0px;
+  -webkit-transition: transform 0.2s linear, -webkit-box-shadow 0.2s linear;
+  -moz-transition: transform 0.2s linear, -moz-box-shadow 0.2s linear;
+  transition: transform 0.2s linear, box-shadow 0.2s linear;
+}
+
+#blog .blog-item-wrapper:hover .blog-item-img:before {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+}
+
+#blog .blog-item-img {
+  position: relative;
+}
+
+#blog .blog-item-img img {
+  width: 100%;
+}
+
+#blog .blog-item-text {
+  padding: 20px 0;
+}
+
+#blog .blog-item-text h3 {
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#blog .blog-item-text h3 a {
+  color: #333;
+}
+
+#blog .blog-item-text h3 a:hover {
+  color: #e84e4e;
+}
+
+#blog .blog-item-text p {
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.meta-tags {
+  margin-bottom: 20px;
+}
+
+.meta-tags span {
+  color: #999;
+  margin-right: 10px;
+}
+
+.meta-tags span i {
+  margin-right: 5px;
+}
+
+.meta-tags span a {
+  color: #999;
+}
+
+.meta-tags span a:hover {
+  color: #e84e4e;
+}
+
+/* ==========================================================================
 15. Footer Style
  ========================================================================== */
 footer {
