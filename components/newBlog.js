@@ -25,7 +25,7 @@ export default function newBlog() {
             <div className="blog-item-wrapper">
               <div className="blog-item-img">
                 <a href="single-post.html">
-                  <img src="/images/team-1.jpg" alt="" />
+                  <img src="/images/dg.png" alt="" />
                 </a>
               </div>
               <div className="blog-item-text">
