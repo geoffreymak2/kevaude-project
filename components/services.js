@@ -35,8 +35,9 @@ export default function services() {
               <i className="lni lni-briefcase"></i>
               <h4 className="features_title">Trading Pétrolier</h4>
               <p>
-                Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt labor dolore magna .
+                La mission de nos équipes : valoriser nos produits, sécuriser
+                l'approvisionnement de nos raffineries et acheminer l'énergie
+                vers les centres de consommation.
               </p>
             </div>
           </div>
@@ -51,8 +52,10 @@ export default function services() {
                 Affrètement des unités fluviales
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt labor dolore magna .
+                Réception et stockage de la marchandise de notre clientèle,
+                Acheminement du fret jusqu’à sa destination de livraison, Remise
+                à un sous-traitant ou transport jusqu’au lieu de livraison
+                final.
               </p>
             </div>
           </div>
@@ -65,8 +68,9 @@ export default function services() {
               <i className="lni lni-target-revenue"></i>
               <h4 className="features_title">Agro-Alimentaire</h4>
               <p>
-                Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt labor dolore magna .
+                Nous produisons des aliments issues de l'agriculture et de la
+                pêche en aliments industriels destinés essentiellement à la
+                consommation humaine.
               </p>
             </div>
           </div>
@@ -79,8 +83,8 @@ export default function services() {
               <i className="lni lni-invention"></i>
               <h4 className="features_title">Approvisionnement en Ciment</h4>
               <p>
-                Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt labor dolore magna .
+                GROUPE KEVAUDE occupe la place de major de l’industrie du ciment
+                en RDC.
               </p>
             </div>
           </div>
@@ -95,8 +99,10 @@ export default function services() {
                 Fournitures et Commercialisation
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt labor dolore magna .
+                Pour aider le monde industriel à trouver des solutions globales,
+                à trouver des réponses en matière de services spécialisés, le
+                GROUPE KEVAUDE renforce son offre de services en développant la
+                commercialisation de fournitures industrielles.
               </p>
             </div>
           </div>
@@ -111,8 +117,9 @@ export default function services() {
                 Approvisionnement en Hydrocarbures
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy
-                eirmod tempor invidunt labor dolore magna .
+                Nous avons LA maitrise des Processus Logistiques adoptés dans
+                les chaines d’approvisionnement des Hydrocarbures : Pétroles et
+                Gaz
               </p>
             </div>
           </div>

@@ -4,6 +4,7 @@ import Features from "../components/features";
 import About from "../components/about";
 import Services from "../components/services";
 import Portfolio from "../components/portfolio";
+
 // import Pricing from "../components/pricing";
 import Team from "../components/team";
 // import Testimonial from "../components/testimonial";

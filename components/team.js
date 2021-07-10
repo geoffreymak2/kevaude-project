@@ -18,14 +18,12 @@ export default function team() {
                 className="wow fadeInUp"
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
-              >
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt labor dolore.
-              </p>
+              ></p>
             </div>
           </div>
         </div>
         <div className="row justify-content-center team_active">
+          <div className="col-lg-4 col-md-8 col-sm-10"></div>
           <div className="col-lg-4 col-md-8 col-sm-10">
             <div
               className="single_team mt-30 wow fadeInUp"
@@ -59,7 +57,8 @@ export default function team() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-8 col-sm-10">
+          <div className="col-lg-4 col-md-8 col-sm-10"></div>
+          {/* <div className="col-lg-4 col-md-8 col-sm-10">
             <div
               className="single_team mt-30 wow fadeInUp"
               data-wow-duration="1.3s"
@@ -125,6 +124,7 @@ export default function team() {
               </div>
             </div>
           </div>
+        */}
         </div>
       </div>
     </section>

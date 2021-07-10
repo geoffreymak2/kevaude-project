@@ -13,14 +13,14 @@ export default function newFooter() {
             <div class="row">
               <div class="col-lg-6 col-sm-6 col-xs-12">
                 <div class="contact-us">
-                  <h3>Contact With us</h3>
+                  <h3>Nous Contacter</h3>
                   <div class="contact-address">
-                    <p>Centerville Road, DE 19808, US </p>
-                    <p class="phone">
+                    <p>Kinshasa, Sud-Ubangi, Nord-Ubangi </p>
+                    {/* <p class="phone">
                       Phone: <span>(+94 123 456 789)</span>
-                    </p>
+                    </p> */}
                     <p class="email">
-                      E-mail: <span>(contact@mate.com)</span>
+                      E-mail: <span>(info@groupekevaude.com)</span>
                     </p>
                   </div>
                   <div class="social-icons">
@@ -40,7 +40,7 @@ export default function newFooter() {
                           <i class="fa fa-google-plus"></i>
                         </a>
                       </li>
-                      <li class="linkedin">
+                      {/* <li class="linkedin">
                         <a href="#">
                           <i class="fa fa-linkedin"></i>
                         </a>
@@ -49,7 +49,7 @@ export default function newFooter() {
                         <a href="#">
                           <i class="fa fa-dribbble"></i>
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -65,9 +65,9 @@ export default function newFooter() {
                             class="form-control"
                             id="name"
                             name="name"
-                            placeholder="Your Name"
+                            placeholder="Votre Nom"
                             required
-                            data-error="Please enter your name"
+                            data-error="Renseigner votre nom !"
                           />
                           <div class="help-block with-errors"></div>
                         </div>
@@ -76,12 +76,12 @@ export default function newFooter() {
                         <div class="form-group">
                           <input
                             type="text"
-                            placeholder="Your Email"
+                            placeholder="Votre Adress Email"
                             id="email"
                             class="form-control"
                             name="name"
                             required
-                            data-error="Please enter your email"
+                            data-error="Renseigner votre email !"
                           />
                           <div class="help-block with-errors"></div>
                         </div>
@@ -91,9 +91,9 @@ export default function newFooter() {
                           <textarea
                             class="form-control"
                             id="message"
-                            placeholder="Your Message"
+                            placeholder="Votre Message"
                             rows="8"
-                            data-error="Write your message"
+                            data-error="Renseigner votre message !"
                             required
                           ></textarea>
                           <div class="help-block with-errors"></div>
@@ -104,7 +104,7 @@ export default function newFooter() {
                             id="submit"
                             type="submit"
                           >
-                            Send Message
+                            Envoyer
                           </button>
                           <div
                             id="msgSubmit"
@@ -128,13 +128,13 @@ export default function newFooter() {
             <div class="col-lg-6 col-sm-6 col-xs-12">
               <ul class="footer-links">
                 <li>
-                  <a href="#">Homepage</a>
+                  <a href="#">Accueil</a>
                 </li>
                 <li>
                   <a href="#">Services</a>
                 </li>
                 <li>
-                  <a href="#">About Us</a>
+                  <a href="#">A propos</a>
                 </li>
                 <li>
                   <a href="#">Contact</a>
@@ -144,9 +144,9 @@ export default function newFooter() {
             <div class="col-lg-6 col-sm-6 col-xs-12">
               <div class="copyright">
                 <p>
-                  All copyrights reserved &copy; 2018 - Designed & Developed by{" "}
-                  <a rel="nofollow" href="https://uideck.com">
-                    UIdeck
+                  Tous droit reservé &copy; 2021 - Dévelopé par{" "}
+                  <a rel="nofollow" href="https://mbokart-concept.net">
+                    Mbok'art Concept
                   </a>
                 </p>
               </div>

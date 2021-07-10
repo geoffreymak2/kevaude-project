@@ -19,8 +19,7 @@ export default function portfolio() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
               >
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt labor dolore.
+                Voici une présentation visuelle de votre savoir-faire.
               </p>
             </div>
           </div>
