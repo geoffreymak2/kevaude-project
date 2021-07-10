@@ -2,18 +2,41 @@ import React from "react";
 
 export default function newPortfolio() {
   return (
-    <section id="portfolios" className="section">
+    <section id="portfolios" className="section portfolio_area">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-6">
+            <div className="section_title text-center pb-60">
+              <h4
+                className="title wow fadeInUp"
+                data-wow-duration="1.3s"
+                data-wow-delay="0.2s"
+              >
+                Notre Gallerie
+              </h4>
+              <p
+                className="wow fadeInUp"
+                data-wow-duration="1.3s"
+                data-wow-delay="0.4s"
+              >
+                Voici une présentation visuelle de votre savoir-faire.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Our Portfolio</h2>
+          {/* <h2 className="section-title">Our Portfolio</h2>
           <hr className="lines" />
           <p className="section-subtitle">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
             dignissimos! <br /> Lorem ipsum dolor sit amet, consectetur.
-          </p>
+          </p> */}
         </div>
+
         <div className="row">
-          <div className="col-md-12">
+          {/* <div className="col-md-12">
             <div className="controls text-center">
               <a className="filter active btn btn-common" data-filter="all">
                 All
@@ -28,9 +51,9 @@ export default function newPortfolio() {
                 Print
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <div id="portfolio" className="row">
+          <div id="portfoliod" className="row">
             <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
               <div className="portfolio-item">
                 <div className="shot-item">

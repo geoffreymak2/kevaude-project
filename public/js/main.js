@@ -17,15 +17,18 @@
     ======================================= */
   window.onscroll = function () {
     var header_navbar = document.getElementById("header_navbar");
-    var logo = document.querySelector("img#logo");
+    // var logo = document.querySelector("img#logo");
+    var logo = document.querySelector("h4#logo");
     var sticky = header_navbar.offsetTop;
 
     if (window.pageYOffset > sticky) {
       header_navbar.classList.add("sticky");
-      logo.setAttribute("src", "/images/logo-2.svg");
+      //   logo.setAttribute("src", "/images/logo-2.svg");
+      logo.classList.add("red");
     } else {
       header_navbar.classList.remove("sticky");
-      logo.setAttribute("src", "/images/logo.svg");
+      //   logo.setAttribute("src", "/images/logo.svg");
+      logo.classList.remove("red");
     }
 
     // show or hide the back-top-top button
@@ -69,6 +72,7 @@
       var refElement = document.querySelector(val);
       var scrollTopMinus = scrollPos + 73;
       if (
+        !!refElement &&
         refElement.offsetTop <= scrollTopMinus &&
         refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
       ) {

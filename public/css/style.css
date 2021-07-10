@@ -382,6 +382,14 @@ p {
   width: 150px;
 }
 
+.navbar-brand h4#logo {
+  color: #fff;
+}
+
+.navbar-brand h4#logo.red {
+  color: #e84e4e;
+}
+
 @media (max-width: 767px) {
   .navbar-brand img {
     width: 130px;
@@ -1724,7 +1732,7 @@ button:focus {
 
 .controls .active {
   color: #61d2b4 !important;
-  border-color: #61d2b4;
+  border-color: #e84e4e;
   background: transparent;
 }
 
@@ -1777,7 +1785,7 @@ button:focus {
   height: 48px;
   width: 48px;
   line-height: 48px;
-  color: #61d2b4;
+  color: #e84e4e;
   left: 50%;
   margin-left: -24px;
   margin-top: -24px;
@@ -1792,12 +1800,12 @@ button:focus {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  border: 1px solid #61d2b4;
+  border: 1px solid #e84e4e;
   border-radius: 50%;
 }
 
 .overlay .item-icon:hover {
-  background: #61d2b4;
+  background: #e84e4e;
   color: #fff;
 }
 
@@ -1864,6 +1872,60 @@ button:focus {
 
 .list-unstyled li {
   color: #d9534f;
+}
+
+/* ==========================================================================
+ 10. Counter Section Style
+ ========================================================================== */
+.counters {
+  background: url(/images/portfolio-3.jpeg) fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center !important;
+  position: relative;
+}
+
+.counters .count-container {
+  position: relative;
+  z-index: 2;
+}
+
+.counters .over::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #e84e4e91;
+  z-index: 1;
+}
+
+.counters .facts-item {
+  text-align: center;
+  color: #fff;
+}
+
+.counters .facts-item .icon {
+  margin-bottom: 30px;
+}
+
+.counters .facts-item .icon i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.counters .facts-item .fact-count h3 {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.counters .facts-item .fact-count h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
 }
 
 /* ==========================================================================

@@ -8,8 +8,9 @@ export default function home() {
           <div className="row">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg">
-                <a className="navbar-brand" href="index.html">
-                  <img id="logo" src="/images/logo.svg" alt="Logo" />
+                <a className="navbar-brand" href="#">
+                  <h4 id="logo">GROUPE KEVAUDE</h4>
+                  {/* <img id="logo" src="/images/logo.svg" alt="Logo" /> */}
                 </a>
                 <button
                   className="navbar-toggler collapsed"
@@ -46,7 +47,7 @@ export default function home() {
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#portfolio">
+                      <a className="page-scroll" href="#portfolios">
                         Gallerie
                       </a>
                     </li>
@@ -55,11 +56,7 @@ export default function home() {
                         Equipe
                       </a>
                     </li>
-                    <li className="nav-item">
-                      <a className="page-scroll" href="#blog">
-                        Blog
-                      </a>
-                    </li>
+
                     <li className="nav-item">
                       <a className="page-scroll" href="#contact">
                         Contact

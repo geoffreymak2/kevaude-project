@@ -128,16 +128,24 @@ export default function newFooter() {
             <div class="col-lg-6 col-sm-6 col-xs-12">
               <ul class="footer-links">
                 <li>
-                  <a href="#">Accueil</a>
+                  <a className="page-scroll" href="#home">
+                    Accueil
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <a className="page-scroll" href="#services">
+                    Services
+                  </a>
                 </li>
                 <li>
-                  <a href="#">A propos</a>
+                  <a className="page-scroll" href="#about">
+                    A propos
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <a className="page-scroll" href="#contact">
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>
