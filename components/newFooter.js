@@ -53,10 +53,16 @@ export default function newFooter() {
                 <div className="contact-us">
                   <h3>Nous Contacter</h3>
                   <div className="contact-address">
-                    <p>Kinshasa, Gémena, Lubumbashi, Lualaba </p>
-                    {/* <p className="phone">
-                      Phone: <span>(+94 123 456 789)</span>
-                    </p> */}
+                    <p>
+                      Adresse: <span>Basoko n° 3968 Gombe-Kinshasa/RDC</span>
+                    </p>
+                    {/* <p>Kinshasa, Gémena, Lubumbashi, Lualaba </p> */}
+                    <p className="phone">
+                      Téléphone:{" "}
+                      <span>
+                        (+243 829 957 187 - 854 538 238 - 808 880 084)
+                      </span>
+                    </p>
                     <p className="email">
                       E-mail: <span>(infos@groupekevaude.com)</span>
                     </p>
