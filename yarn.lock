@@ -376,6 +376,13 @@ axe-core@^4.0.2:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.2.3.tgz#2a3afc332f0031b42f602f4a3de03c211ca98f72"
   integrity sha512-pXnVMfJKSIWU2Ml4JHP7pZEPIrgBO1Fd3WGx+fPBsS+KRGhE4vxooD8XBGWbQOIVSZsVK7pUDBBkCicNu80yzQ==
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 axobject-query@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
@@ -1272,6 +1279,11 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.1.1.tgz#c4b489e80096d9df1dfc97c79871aea7c617c469"
   integrity sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==
 
+follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==
+
 foreach@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
@@ -2003,6 +2015,11 @@ node-releases@^1.1.71:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.73.tgz#dd4e81ddd5277ff846b80b52bb40c49edf7a7b20"
   integrity sha512-uW7fodD6pyW2FZNZnp/Z3hvWKeEW1Y8R1+1CnErE8cXFXzl5blBOoVB41CvMer6P6Q0S5FXDwcHgFd1Wj0U9zg==
 
+nodemailer@^6.6.3:
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.6.3.tgz#31fb53dd4d8ae16fc088a65cb9ffa8d928a69b48"
+  integrity sha512-faZFufgTMrphYoDjvyVpbpJcYzwyFnbAMmQtj1lVBYAUSm3SOy2fIdd9+Mr4UxPosBa0JRw9bJoIwQn+nswiew==
+
 normalize-package-data@^2.3.2:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"
@@ -2405,6 +2422,11 @@ react-dom@17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-hook-form@^7.11.1:
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.11.1.tgz#936f8a14bdf02b0791c2130d7c78c49c10e6de09"
+  integrity sha512-lBt428oU03dNUF5qZy5xqEdANaH3L/ilKWQS2t8wD6zF7FypOv46kEkZmg+oHf3n2xgeGYJgbMIGtYExsfKJ8A==
 
 react-is@17.0.2:
   version "17.0.2"

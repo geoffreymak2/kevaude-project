@@ -30,8 +30,8 @@ class MyDocument extends Document {
           <script src="/js/jquery.counterup.min.js"></script>
           <script src="/js/jquery.magnific-popup.min.js"></script>
           <script src="/js/waypoints.min.js"></script>
-          <script src="/js/form-validator.min.js"></script>
-          <script src="/js/contact-form-script.js"></script>
+          {/* <script src="/js/form-validator.min.js"></script>
+          <script src="/js/contact-form-script.js"></script> */}
 
           <script src="/js/bootstrap.bundle-5.0.0-beta1.min.js"></script>
           <script src="/js/tiny-slider.js"></script>

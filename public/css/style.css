@@ -2047,10 +2047,14 @@ footer {
 #conatiner-map {
   width: 100%;
   height: 480px;
+  overflow-y: hidden;
 }
 
 #google-map-area {
   position: relative;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 #google-map-area .container-fluid {

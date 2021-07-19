@@ -1,6 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
+
+import { useForm } from "react-hook-form";
+import axios from "axios";
 
 export default function newFooter() {
+  const [succes, setSucces] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const {
+    register,
+    handleSubmit,
+    watch,
+    reset,
+    formState: { errors },
+  } = useForm();
+
+  async function onSubmitForm(data) {
+    let config = {
+      method: "post",
+      url: `/api/contact`,
+      headers: {
+        "Content-Type": "application/json",
+      },
+      data,
+    };
+
+    try {
+      setLoading(true);
+      const response = await axios(config);
+      console.log("satut", response.status);
+      if (response.status == 200) {
+        reset();
+        setSucces(true);
+      }
+    } catch (err) {
+      console.log(err);
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <>
       <section
@@ -56,53 +94,71 @@ export default function newFooter() {
               </div>
               <div className="col-lg-6 col-sm-6 col-xs-12">
                 <div className="contact-block">
-                  <form id="contactForm">
+                  <form id="contactForm" onSubmit={handleSubmit(onSubmitForm)}>
                     <div className="row">
                       <div className="col-md-12">
                         <div className="form-group">
                           <input
                             type="text"
-                            className="form-control"
-                            id="name"
+                            className={`form-control ${
+                              errors.name && "is-invalid"
+                            }`}
                             name="name"
                             placeholder="Votre Nom"
-                            required
-                            data-error="Renseigner votre nom !"
+                            {...register("name", {
+                              required: true,
+                              minLength: 3,
+                            })}
                           />
-                          <div className="help-block with-errors"></div>
+                          <div className="invalid-feedback error-msg">
+                            Nom incorrect !
+                          </div>
                         </div>
                       </div>
                       <div className="col-md-12">
                         <div className="form-group">
                           <input
-                            type="text"
+                            type="email"
+                            className={`form-control ${
+                              errors.email && "is-invalid"
+                            }`}
+                            name="email"
                             placeholder="Votre Adress Email"
-                            id="email"
-                            className="form-control"
-                            name="name"
-                            required
-                            data-error="Renseigner votre email !"
+                            {...register("email", {
+                              required: true,
+                              pattern:
+                                /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                            })}
                           />
-                          <div className="help-block with-errors"></div>
+                          <div className="invalid-feedback error-msg">
+                            Email incorrect !
+                          </div>
                         </div>
                       </div>
                       <div className="col-md-12">
                         <div className="form-group">
                           <textarea
-                            className="form-control"
-                            id="message"
+                            row="8"
+                            className={`form-control ${
+                              errors.message && "is-invalid"
+                            }`}
+                            name="message"
                             placeholder="Votre Message"
-                            rows="8"
-                            data-error="Renseigner votre message !"
-                            required
-                          ></textarea>
-                          <div className="help-block with-errors"></div>
+                            name="message"
+                            {...register("message", {
+                              required: true,
+                            })}
+                          />
+                          <div className="invalid-feedback error-msg">
+                            Message incorrect !
+                          </div>
                         </div>
                         <div className="submit-button text-center">
                           <button
                             className="btn btn-common"
                             id="submit"
                             type="submit"
+                            disabled={loading}
                           >
                             Envoyer
                           </button>
@@ -110,6 +166,26 @@ export default function newFooter() {
                             id="msgSubmit"
                             className="h3 text-center hidden"
                           ></div>
+                          <div className="col-12">
+                            {succes && (
+                              <div
+                                className=" mt-3 text-center alert alert-success alert-dismissible fade show"
+                                role="alert"
+                              >
+                                <strong>Merci!</strong> nous avons reçu votre
+                                message.
+                                <button
+                                  type="button"
+                                  class="close"
+                                  data-dismiss="alert"
+                                  aria-label="Close"
+                                  onClick={() => setSucces(false)}
+                                >
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                            )}
+                          </div>
                           <div className="clearfix"></div>
                         </div>
                       </div>

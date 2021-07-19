@@ -84,7 +84,7 @@ export default function newService() {
               <div className="icon color-1">
                 <i className="lni lni-invention"></i>
               </div>
-              <h4>vApprovisionnement en Ciment</h4>
+              <h4>Approvisionnement en Ciment</h4>
               <p>
                 GROUPE KEVAUDE occupe la place de major de l’industrie du ciment
                 en RDC.
@@ -118,7 +118,7 @@ export default function newService() {
               </div>
               <h4> Approvisionnement en Hydrocarbures</h4>
               <p>
-                Nous avons LA maitrise des Processus Logistiques adoptés dans
+                Nous avons La maitrise des Processus Logistiques adoptés dans
                 les chaines d’approvisionnement des Hydrocarbures : Pétroles et
                 Gaz.
               </p>

@@ -7,7 +7,14 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <title>Groupe Kevaude</title>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content={`Le Groupe Kevaude commercialise les produits petroliers raffinés à travers ses reseaux de distribution et ses aires d'approvisionnement dans les ports du Pool Malebo. Nos unités fluviales assurent une distribution dans le Grand Equateur et dans tout le pays en assurant une autonomie en produits et de surcroit le désenclavement des zones forestières. Défiant toute concurrence liée au prix et participe à la reconstitution du pays par l'aménagement des infrastructures de base dans le Sud-Ubangi et au Nord-Ubangi.`}
+        />
+        <meta
+          name="keywords"
+          content={`Face aux grandes mutations énergetiques de l' heure, nous nous taillons une place de choix et non le moindre dans le secteur des hydrocarbures dans le monde. Aguerris et déterminé, nous le sommes. GROUPE KEVAUDE se veut être en position d'avant-gardiste dans le secteur des hydrocarbures, trading et Commercialisation. Tels est l'objectif assigné à l' horizon 2025.`}
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
 
