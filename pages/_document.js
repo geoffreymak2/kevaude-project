@@ -23,7 +23,7 @@ class MyDocument extends Document {
           <script src="/js/jquery.nav.js"></script>
           <script src="/js/scrolling-nav.js"></script>
           <script src="/js/jquery.easing.min.js"></script>
-          <script src="/js/smoothscroll.js"></script>
+          {/* <script src="/js/smoothscroll.js"></script> */}
           <script src="/js/jquery.slicknav.js"></script>
           <script src="/js/wow.js"></script>
           <script src="/js/jquery.vide.js"></script>

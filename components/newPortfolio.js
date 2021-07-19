@@ -19,7 +19,7 @@ export default function newPortfolio() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
               >
-                Voici une présentation visuelle de votre savoir-faire.
+                Voici une présentation visuelle de notre savoir-faire.
               </p>
             </div>
           </div>

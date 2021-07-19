@@ -2,7 +2,7 @@ import Preloader from "../components/preloader";
 import Home from "../components/home";
 import Features from "../components/features";
 import About from "../components/about";
-import Services from "../components/services";
+import Services from "../components/newService";
 import Portfolio from "../components/newPortfolio";
 // import Portfolio from "../components/portfolio";
 
@@ -15,6 +15,7 @@ import Contact from "../components/contact";
 import BackToTop from "../components/backToTop";
 import Counter from "../components/counter";
 import Blog from "../components/newBlog";
+import Map from "../components/map";
 
 export default function HomePage() {
   return (
@@ -30,6 +31,7 @@ export default function HomePage() {
       {/* <Team /> */}
       {/* <Testimonial /> */}
       <Blog />
+      <Map />
       {/* <Contact /> */}
       {/* <Footer /> */}
       <BackToTop />
