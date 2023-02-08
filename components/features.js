@@ -19,8 +19,8 @@ export default function features() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
               >
-                Groupe Kevaude s'affirme dans le secteur dans le secteur des
-                hydrocarbures dans le monde.
+                Groupe Kevaude s'affirme dans le secteur des hydrocarbures dans
+                le monde.
               </p>
             </div>
           </div>
