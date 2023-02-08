@@ -47,6 +47,23 @@ export default function newService() {
           <div className="col-lg-4 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"
+              data-wow-delay="1s"
+            >
+              <div className="icon color-1">
+                <i className="lni lni-bar-chart"></i>
+              </div>
+              <h4> Fournitures et Commercialisation</h4>
+              <p>
+                Pour aider le monde industriel à trouver des solutions globales
+                à trouver des réponses en matière de services spécialisés,
+                GROUPE KEVAUDE renforce son offre de services en développant la
+                commercialisation des fournitures industrielles.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-xs-12">
+            <div
+              className="item-boxes services-item wow fadeInDown"
               data-wow-delay="0.4s"
             >
               <div className="icon color-1">
@@ -91,23 +108,7 @@ export default function newService() {
               </p>
             </div>
           </div> */}
-          <div className="col-lg-4 col-md-6 col-xs-12">
-            <div
-              className="item-boxes services-item wow fadeInDown"
-              data-wow-delay="1s"
-            >
-              <div className="icon color-1">
-                <i className="lni lni-bar-chart"></i>
-              </div>
-              <h4> Fournitures et Commercialisation</h4>
-              <p>
-                Pour aider le monde industriel à trouver des solutions globales
-                à trouver des réponses en matière de services spécialisés,
-                GROUPE KEVAUDE renforce son offre de services en développant la
-                commercialisation des fournitures industrielles.
-              </p>
-            </div>
-          </div>
+
           {/* <div className="col-lg-4 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"
