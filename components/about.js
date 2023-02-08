@@ -14,25 +14,24 @@ export default function about() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.2s"
                   >
-                    Qui sommes nous ?
+                    Qui sommes-nous ?
                   </h4>
                   <p
                     className="wow fadeInUp"
                     data-wow-duration="1.3s"
                     data-wow-delay="0.4s"
                   >
-                    Face aux grands changements énergétiques de l'heure, nous
-                    créons une place de choix et non la moindre dans le secteur
-                    des hydrocarbures dans le monde.
+                    Face aux grands changements d'énergétiques de l'heure, nous
+                    nous créons une place de choix et non la moindre dans le
+                    secteur des hydrocarbures.
                   </p>
                   <p
                     className="wow fadeInUp"
                     data-wow-duration="1.3s"
                     data-wow-delay="0.6s"
                   >
-                    GROUPE KEVAUDE s'affirme dans le secteur des hydrocarbures,
-                    du trading et de la commercialisation, tel est l'objectif
-                    assigné à l'horizon 2025.
+                    S'affirme dans le secteur des hydrocarbures à travers le
+                    trading et la commercialisation, tel est l'objectif assigné.
                   </p>
                 </div>
                 <a

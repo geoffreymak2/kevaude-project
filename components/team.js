@@ -34,9 +34,9 @@ export default function team() {
 
               <div className="team_content">
                 <h4 className="team_name">
-                  <a href="#0">BOBOZO Bobo Newman.</a>
+                  <a href="#0">M.BOBOZO .</a>
                 </h4>
-                <p>Directeur Géneral</p>
+                <p>Directeur Général</p>
                 <ul className="social">
                   <li>
                     <a href="#0">

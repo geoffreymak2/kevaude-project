@@ -40,17 +40,17 @@ export default function newBlog() {
                   </span>
                 </div>
                 <h3>
-                  <a href="single-post.html">Mr BOBOZO </a>
+                  <a href="single-post.html">M. BOBOZO </a>
                 </h3>
                 <p>
                   M. Bobozo a commencé dans les années 2000. D'abord en tant que
                   négociant, puis en tant qu'associé dans le domaine des
-                  entrants.
+                  intrants.
                   <br /> M. Bobozo détient aujourd'hui 100 % du Groupe Kevaude,
                   dans lequel il est Directeur Général du groupe.
                   <br />
                   Aujourd'hui, Groupe Kevaude se compose de plusieurs entités,
-                  avec un chiffre d'affaires en croissance chaque année.
+                  avec un chiffre d'affaires en croissance continue
                 </p>
                 {/* <a href="single-post.html" className="btn-rm">
                   Read More <i className="lnr lnr-arrow-right"></i>

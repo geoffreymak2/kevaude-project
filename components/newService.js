@@ -19,10 +19,9 @@ export default function newService() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
               >
-                Nous avons pour secteur d'activité prioritaire, le trading
-                pétrolier et l'affrètement des unités fluviales et nous
-                proposons à nos clients une large gamme de produits et services
-                pour optimiser leur expérience d'activité.
+                Nous sommes dans le trading pétrolier et l'affrètement des
+                unités fluviales, et proposons à nos clients une large gamme de
+                produits et services.
               </p>
             </div>
           </div>
@@ -61,7 +60,7 @@ export default function newService() {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-xs-12">
+          {/* <div className="col-lg-4 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"
               data-wow-delay="0.6s"
@@ -76,8 +75,8 @@ export default function newService() {
                 consommation humaine.
               </p>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-xs-12">
+          </div> */}
+          {/*  <div className="col-lg-4 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"
               data-wow-delay="0.8s"
@@ -91,7 +90,7 @@ export default function newService() {
                 RDC.
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-4 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"
@@ -109,7 +108,7 @@ export default function newService() {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-xs-12">
+          {/* <div className="col-lg-4 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"
               data-wow-delay="1.2s"
@@ -123,7 +122,7 @@ export default function newService() {
                 chaînes d'approvisionnement en Hydrocarbures : Pétrole et Gaz.
               </p>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>

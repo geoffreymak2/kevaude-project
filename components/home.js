@@ -52,7 +52,7 @@ export default function home() {
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#team">
+                      <a className="page-scroll" href="#blog">
                         Equipe
                       </a>
                     </li>
@@ -73,7 +73,7 @@ export default function home() {
       <div className="header_hero">
         <div
           className="single_hero bg_cover d-flex align-items-center"
-          style={{ backgroundImage: "url(/images/hero.jpeg)" }}
+          style={{ backgroundImage: "url(/images/hero.png)" }}
         >
           <div className="container">
             <div className="row justify-content-center">

@@ -26,7 +26,7 @@ export default function HomePage() {
       <About />
       <Services />
       <Portfolio />
-      <Counter />
+      {/* <Counter /> */}
       {/* <Pricing /> */}
       {/* <Team /> */}
       {/* <Testimonial /> */}

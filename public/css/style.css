@@ -29,6 +29,8 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #5a5872;
+  /* background-color: rgba(52, 50, 50, 0.626); */
+
   overflow-x: hidden;
 }
 
@@ -814,10 +816,21 @@ p {
       04.ABOUT css 
 ===========================*/
 .about_area {
-  background-color: #f9f9f9;
+  background-color: #5a5872;
   position: relative;
 }
 
+.about_area * {
+  color: #fff !important;
+}
+
+.portfolio_area {
+  background-color: #f8f9fa;
+}
+
+.gray-bg {
+  background-color: #f8f9fa;
+}
 .about_image {
   position: absolute;
   top: 0;
