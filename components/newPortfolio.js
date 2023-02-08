@@ -12,7 +12,7 @@ export default function newPortfolio() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
-                Notre Gallerie
+                Notre Gallérie
               </h4>
               <p
                 className="wow fadeInUp"

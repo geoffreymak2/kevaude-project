@@ -64,7 +64,7 @@ export default function newFooter() {
                       </span>
                     </p>
                     <p className="email">
-                      E-mail: <span>(infos@groupekevaude.com)</span>
+                      E-mail: <span>(secretariat@groupekevaude.com)</span>
                     </p>
                   </div>
                   <div className="social-icons">
@@ -129,7 +129,7 @@ export default function newFooter() {
                               errors.email && "is-invalid"
                             }`}
                             name="email"
-                            placeholder="Votre Adress Email"
+                            placeholder="Votre Adresse Email"
                             {...register("email", {
                               required: true,
                               pattern:
@@ -150,7 +150,6 @@ export default function newFooter() {
                             }`}
                             name="message"
                             placeholder="Votre Message"
-                            name="message"
                             {...register("message", {
                               required: true,
                             })}
@@ -235,7 +234,7 @@ export default function newFooter() {
               <div className="copyright">
                 <p>
                   Tous droit reservé &copy; 2021 - Dévelopé par{" "}
-                  <a rel="nofollow" href="https://mbokart-concept.net">
+                  <a rel="nofollow" href="https://mbokartconcept.net">
                     Mbok'art Concept
                   </a>
                 </p>

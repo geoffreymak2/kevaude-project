@@ -84,9 +84,10 @@ export default function home() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.2s"
                   >
-                    Aguerris et déterminés, <br /> Nous le sommes
+                    Nous sommes aguerris <br />
+                    et déterminés
                   </h2>
-                  <p
+                  {/* <p
                     className="wow fadeInUp"
                     data-wow-duration="1.3s"
                     data-wow-delay="0.5s"
@@ -94,7 +95,7 @@ export default function home() {
                     Face aux grandes mutations énergetiques de l' heure, nous
                     nous taillons une place de choix et non le moindre dans le
                     secteur des hydrocarbures dans le monde.
-                  </p>
+                  </p> */}
                   <a
                     href="#features"
                     className="main-btn wow fadeInUp"

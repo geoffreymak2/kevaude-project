@@ -21,20 +21,18 @@ export default function about() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.4s"
                   >
-                    Face aux grandes mutations énergetiques de l' heure, nous
-                    nous taillons une place de choix et non le moindre dans le
-                    secteur des hydrocarbures dans le monde. Aguerris et
-                    déterminé, nous le sommes.
+                    Face aux grands changements énergétiques de l'heure, nous
+                    créons une place de choix et non la moindre dans le secteur
+                    des hydrocarbures dans le monde.
                   </p>
                   <p
                     className="wow fadeInUp"
                     data-wow-duration="1.3s"
                     data-wow-delay="0.6s"
                   >
-                    GROUPE KEVAUDE se veut être en position d'avant-gardiste
-                    dans le secteur des hydrocarbures, trading et
-                    Commercialisation. Tels est l'objectif assigné à l' horizon
-                    2025.
+                    GROUPE KEVAUDE s'affirme dans le secteur des hydrocarbures,
+                    du trading et de la commercialisation, tel est l'objectif
+                    assigné à l'horizon 2025.
                   </p>
                 </div>
                 <a
@@ -58,7 +56,7 @@ export default function about() {
         >
           <div className="image_content">
             <h4 className="experience">
-              <span>5</span> ans d'experiances
+              <span>5</span> ans d'experiences
             </h4>
           </div>
         </div>

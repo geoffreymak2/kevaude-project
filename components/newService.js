@@ -19,8 +19,10 @@ export default function newService() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
               >
-                Nous avons pour secteurs d'activité prioritaire, le trading
-                pétrolier et l'affrètement des unités fluviales.
+                Nous avons pour secteur d'activité prioritaire, le trading
+                pétrolier et l'affrètement des unités fluviales et nous
+                proposons à nos clients une large gamme de produits et services
+                pour optimiser leur expérience d'activité.
               </p>
             </div>
           </div>
@@ -37,9 +39,9 @@ export default function newService() {
               </div>
               <h4>Trading Pétrolier</h4>
               <p>
-                La mission de nos équipes : valoriser nos produits, sécuriser
-                l'approvisionnement de nos raffineries et acheminer l'énergie
-                vers les centres de consommation.
+                La mission de nos équipes est de valoriser nos produits,
+                sécuriser l'approvisionnement de nos raffineries et transporter
+                l'énergie vers les centres de consommation.
               </p>
             </div>
           </div>
@@ -53,10 +55,9 @@ export default function newService() {
               </div>
               <h4>Affrètement des unités fluviales</h4>
               <p>
-                Réception et stockage de la marchandise de notre clientèle,
-                Acheminement du fret jusqu’à sa destination de livraison, Remise
-                à un sous-traitant ou transport jusqu’au lieu de livraison
-                final.
+                Réception et stockage des marchandises de nos clients,
+                Expédition du fret à sa destination de livraison, Livraison à un
+                sous-traitant ou transport au lieu de livraison définitive.
               </p>
             </div>
           </div>
@@ -70,7 +71,7 @@ export default function newService() {
               </div>
               <h4>Agro-Alimentaire</h4>
               <p>
-                Nous produisons des aliments issues de l'agriculture et de la
+                Nous produisons des aliments issus de l'agriculture et de la
                 pêche en aliments industriels destinés essentiellement à la
                 consommation humaine.
               </p>
@@ -86,8 +87,8 @@ export default function newService() {
               </div>
               <h4>Approvisionnement en Ciment</h4>
               <p>
-                GROUPE KEVAUDE occupe la place de major de l’industrie du ciment
-                en RDC.
+                GROUPE KEVAUDE est un acteur majeur dans le secteur cimentier en
+                RDC.
               </p>
             </div>
           </div>
@@ -101,10 +102,10 @@ export default function newService() {
               </div>
               <h4> Fournitures et Commercialisation</h4>
               <p>
-                Pour aider le monde industriel à trouver des solutions globales,
-                à trouver des réponses en matière de services spécialisés, le
+                Pour aider le monde industriel à trouver des solutions globales
+                à trouver des réponses en matière de services spécialisés,
                 GROUPE KEVAUDE renforce son offre de services en développant la
-                commercialisation de fournitures industrielles.
+                commercialisation des fournitures industrielles.
               </p>
             </div>
           </div>
@@ -118,9 +119,8 @@ export default function newService() {
               </div>
               <h4> Approvisionnement en Hydrocarbures</h4>
               <p>
-                Nous avons La maitrise des Processus Logistiques adoptés dans
-                les chaines d’approvisionnement des Hydrocarbures : Pétroles et
-                Gaz.
+                Nous avons maîtrisé les Process Logistiques adoptés dans les
+                chaînes d'approvisionnement en Hydrocarbures : Pétrole et Gaz.
               </p>
             </div>
           </div>
