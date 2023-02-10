@@ -7,15 +7,15 @@ export default async (req, res) => {
     port: 587,
     secure: false,
     auth: {
-      user: "infos@groupekevaude.com",
-      pass: "1234",
+      user: "secretariat@groupekevaude.com",
+      pass: "password123",
     },
   });
 
   try {
     const emailRes = await transporter.sendMail({
-      from: `${name} <infos@groupekevaude.com>`,
-      to: "infos@groupekevaude.com",
+      from: `${name} <secretariat@groupekevaude.com>`,
+      to: "secretariat@groupekevaude.com",
       subject: `${name} a visité votre site`,
       html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
         <html
@@ -540,9 +540,9 @@ export default async (req, res) => {
                                       style="font-size: 12px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 14px; margin: 0;"
                                     >
                                       <span style="font-size: 12px;"
-                                        >Tous droits réservés © 2021 | Developé
+                                        >Tous droits réservés © 2023 | Développé
                                         par&nbsp;<a
-                                          href="https://mbokart-concept.net/"
+                                          href="https://mbokartconcept.net/"
                                           rel="nofollow"
                                           style="color: #f9eded;"
                                           >Mbok'art Concept</a

@@ -56,7 +56,7 @@ export default function newFooter() {
                     <p>
                       Adresse:{" "}
                       <span>
-                        4 Appartement 21, avenue Batetela, Gombe-Kinshasa/RDC
+                        4 appartement 21, avenue batetela, Gombe-Kinshasa/RDC
                       </span>
                     </p>
                     {/* <p>Kinshasa, Gémena, Lubumbashi, Lualaba </p> */}
@@ -236,9 +236,9 @@ export default function newFooter() {
             <div className="col-lg-6 col-sm-6 col-xs-12">
               <div className="copyright">
                 <p>
-                  Tous droit reservé &copy; 2021 - Dévelopé par{" "}
+                  Tous droit reservé &copy; 2023 - Développé par{" "}
                   <a rel="nofollow" href="https://mbokartconcept.net">
-                    Mbok'art Concept
+                    Mbok'Art Concept
                   </a>
                 </p>
               </div>
