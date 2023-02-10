@@ -54,7 +54,10 @@ export default function newFooter() {
                   <h3>Nous Contacter</h3>
                   <div className="contact-address">
                     <p>
-                      Adresse: <span>Basoko n° 3968 Gombe-Kinshasa/RDC</span>
+                      Adresse:{" "}
+                      <span>
+                        4 Appartement 21, avenue Batetela, Gombe-Kinshasa/RDC
+                      </span>
                     </p>
                     {/* <p>Kinshasa, Gémena, Lubumbashi, Lualaba </p> */}
                     <p className="phone">

@@ -19,8 +19,7 @@ export default function features() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
               >
-                Groupe Kevaude s'affirme dans le secteur des hydrocarbures dans
-                le monde.
+                Groupe Kevaude s'affirme dans le secteur des hydrocarbures.
               </p>
             </div>
           </div>
@@ -35,8 +34,8 @@ export default function features() {
               <i className="lni lni-layers"></i>
               <h4 className="features_title">La Qualité de Nos Produits</h4>
               <p>
-                Groupe Kevaude commercialise les produits petroliers raffinés à
-                travers son reseau de distribution et ses aires
+                Groupe Kevaude commercialise les produits pétroliers raffinés à
+                travers son réseau de distribution et ses aires
                 d'approvisionnement dans le port du Pool Malebo.
               </p>
             </div>

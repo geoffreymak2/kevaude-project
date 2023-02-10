@@ -72,7 +72,7 @@ export default function newService() {
               <h4>Affrètement des unités fluviales</h4>
               <p>
                 Réception et stockage des marchandises de nos clients,
-                Expédition du fret à sa destination de livraison, Livraison à un
+                expédition du fret à sa destination de livraison, livraison à un
                 sous-traitant ou transport au lieu de livraison définitive.
               </p>
             </div>

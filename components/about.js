@@ -21,7 +21,7 @@ export default function about() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.4s"
                   >
-                    Face aux grands changements d'énergétiques de l'heure, nous
+                    Face aux grands changements énergétiques de l'heure, nous
                     nous créons une place de choix et non la moindre dans le
                     secteur des hydrocarbures.
                   </p>
