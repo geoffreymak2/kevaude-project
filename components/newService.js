@@ -28,7 +28,7 @@ export default function newService() {
         </div>
 
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-xs-12">
+          <div className="col-lg-6 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"
               data-wow-delay="0.2s"
@@ -44,7 +44,8 @@ export default function newService() {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-xs-12">
+          {/* <div className="col-lg-4 col-md-6 col-xs-12"></div> */}
+          <div className="col-lg-6 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"
               data-wow-delay="1s"
@@ -61,7 +62,7 @@ export default function newService() {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-xs-12">
+          {/*  <div className="col-lg-4 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"
               data-wow-delay="0.4s"
@@ -76,7 +77,7 @@ export default function newService() {
                 sous-traitant ou transport au lieu de livraison définitive.
               </p>
             </div>
-          </div>
+          </div> */}
           {/* <div className="col-lg-4 col-md-6 col-xs-12">
             <div
               className="item-boxes services-item wow fadeInDown"

@@ -30,7 +30,7 @@ export default function about() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.6s"
                   >
-                    S'affirme dans le secteur des hydrocarbures à travers le
+                    S'affirmer dans le secteur des hydrocarbures à travers le
                     trading et la commercialisation, tel est l'objectif assigné.
                   </p>
                 </div>

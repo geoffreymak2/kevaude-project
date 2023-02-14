@@ -32,7 +32,7 @@ export default function features() {
               data-wow-delay="0.2s"
             >
               <i className="lni lni-layers"></i>
-              <h4 className="features_title">La Qualité de Nos Produits</h4>
+              <h4 className="features_title">La qualité de nos produits</h4>
               <p>
                 Groupe Kevaude commercialise les produits pétroliers raffinés à
                 travers son réseau de distribution et ses aires
@@ -47,7 +47,7 @@ export default function features() {
               data-wow-delay="0.4s"
             >
               <i className="lni lni-layout"></i>
-              <h4 className="features_title">La Livraison de Nos Produits</h4>
+              <h4 className="features_title">La livraison de nos produits</h4>
               <p>
                 Nos unités fluviales assurent la distribution dans le Grand
                 Équateur et dans tout le pays en assurant l'autonomie des
@@ -62,7 +62,7 @@ export default function features() {
               data-wow-delay="0.6s"
             >
               <i className="lni lni-bolt"></i>
-              <h4 className="features_title">Nos Objectifs</h4>
+              <h4 className="features_title">Nos objectifs</h4>
               <p>
                 Défier toute concurrence liée au prix et participer à la
                 reconstitution du pays par le développement des infrastructures
