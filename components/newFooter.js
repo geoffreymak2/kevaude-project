@@ -72,7 +72,7 @@ export default function newFooter() {
                   </div>
                   <div className="social-icons">
                     <ul>
-                      <li className="facebook">
+                     {/* <li className="facebook">
                         <a href="#">
                           <i className="fa fa-facebook"></i>
                         </a>
@@ -87,7 +87,7 @@ export default function newFooter() {
                           <i className="fa fa-google-plus"></i>
                         </a>
                       </li>
-                      {/* <li className="linkedin">
+                       <li className="linkedin">
                         <a href="#">
                           <i className="fa fa-linkedin"></i>
                         </a>
