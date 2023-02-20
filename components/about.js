@@ -35,12 +35,12 @@ export default function about() {
                   </p>
                 </div>
                 <a
-                  href="#0"
-                  className="main-btn wow fadeInUp"
+                  href="#portfolios"
+                  className="page-scroll main-btn wow fadeInUp"
                   data-wow-duration="1.3s"
                   data-wow-delay="0.7s"
                 >
-                  Lire plus
+                  Voir plus
                 </a>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function about() {
           className="about_image bg_cover wow fadeInLeft"
           data-wow-duration="1.3s"
           data-wow-delay="0.2s"
-          style={{ backgroundImage: "url(/images/portfolio-3.jpeg)" }}
+          style={{ backgroundImage: "url(/images/portofolio-12.png)" }}
         >
           <div className="image_content">
             <h4 className="experience">

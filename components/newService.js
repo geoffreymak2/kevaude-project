@@ -34,7 +34,7 @@ export default function newService() {
               data-wow-delay="0.2s"
             >
               <div className="icon color-1">
-                <i className="lni lni-briefcase"></i>
+                <i className="lni lni-drop"></i>
               </div>
               <h4>Trading Pétrolier</h4>
               <p>
@@ -56,8 +56,8 @@ export default function newService() {
               <h4> Fournitures et Commercialisation</h4>
               <p>
                 Pour aider le monde industriel à trouver des solutions globales
-                à trouver des réponses en matière de services spécialisés,
-                GROUPE KEVAUDE renforce son offre de services en développant la
+                et des réponses en matière de services spécialisés, GROUPE
+                KEVAUDE renforce son offre de services en développant la
                 commercialisation des fournitures industrielles.
               </p>
             </div>

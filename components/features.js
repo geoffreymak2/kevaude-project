@@ -2,7 +2,7 @@ import React from "react";
 
 export default function features() {
   return (
-    <section id="features" className="features_area pt-120">
+    <section id="features" className="features_area">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
@@ -25,6 +25,21 @@ export default function features() {
           </div>
         </div>
         <div className="row justify-content-center">
+          <div className="col-lg-4 col-md-7">
+            <div
+              className="single_features text-center mt-30 wow fadeInUp"
+              data-wow-duration="1.3s"
+              data-wow-delay="0.6s"
+            >
+              <i className="lni lni-bolt"></i>
+              <h4 className="features_title">Nos objectifs</h4>
+              <p>
+                Défier toute concurrence liée au prix et participer à la
+                reconstitution du pays par le développement des infrastructures
+                de base dans le Nord et Sud-Ubangi.
+              </p>
+            </div>
+          </div>
           <div className="col-lg-4 col-md-7">
             <div
               className="single_features text-center mt-30 wow fadeInUp"
@@ -52,21 +67,6 @@ export default function features() {
                 Nos unités fluviales assurent la distribution dans le Grand
                 Équateur et dans tout le pays en assurant l'autonomie des
                 produits ainsi que l'ouverture des zones forestières.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-7">
-            <div
-              className="single_features text-center mt-30 wow fadeInUp"
-              data-wow-duration="1.3s"
-              data-wow-delay="0.6s"
-            >
-              <i className="lni lni-bolt"></i>
-              <h4 className="features_title">Nos objectifs</h4>
-              <p>
-                Défier toute concurrence liée au prix et participer à la
-                reconstitution du pays par le développement des infrastructures
-                de base dans le Sud-Ubangi et au Nord-Ubangi.
               </p>
             </div>
           </div>

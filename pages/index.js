@@ -22,8 +22,8 @@ export default function HomePage() {
     <>
       <Preloader />
       <Home />
-      <Features />
       <About />
+      <Features />
       <Services />
       <Portfolio />
       {/* <Counter /> */}

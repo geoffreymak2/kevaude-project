@@ -54,39 +54,40 @@ export default function newPortfolio() {
           </div> */}
 
           <div id="portfoliod" className="row">
-            <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
-              <div className="portfolio-item">
-                <div className="shot-item">
-                  <img src="/images/portfolio-3.jpeg" alt="" />
-                  <a
-                    className="overlay lightbox"
-                    href="/images/portfolio-3.jpeg"
-                  >
-                    <i className="lnr lnr-eye item-icon"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
             <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
               <div className="portfolio-item">
                 <div className="shot-item">
-                  <img src="/images/portfolio-4.jpeg" alt="" />
+                  <img src="/images/portofolio-12.png" alt="" />
                   <a
                     className="overlay lightbox"
-                    href="/images/portfolio-4.jpeg"
+                    href="/images/portofolio-12.png"
                   >
                     <i className="lnr lnr-eye item-icon"></i>
                   </a>
                 </div>
               </div>
             </div>
+            <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+              <div className="portfolio-item">
+                <div className="shot-item">
+                  <img src="/images/portofolio-10.jpg" alt="" />
+                  <a
+                    className="overlay lightbox"
+                    href="/images/portofolio-10.jpg"
+                  >
+                    <i className="lnr lnr-eye item-icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
               <div className="portfolio-item">
                 <div className="shot-item">
-                  <img src="/images/portfolio-5.jpeg" alt="" />
+                  <img src="/images/portofolio-11.jpg" alt="" />
                   <a
                     className="overlay lightbox"
-                    href="/images/portfolio-5.jpeg"
+                    href="/images/portofolio-11.jpg"
                   >
                     <i className="lnr lnr-eye item-icon"></i>
                   </a>
