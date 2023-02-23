@@ -50,7 +50,7 @@ export default function newBlog() {
                   dans lequel il est Directeur Général du groupe.
                   <br />
                   Aujourd'hui, Groupe Kevaude se compose de plusieurs entités,
-                  avec un chiffre d'affaires en croissance continue
+                  avec un chiffre d'affaires en croissance continue.
                 </p>
                 {/* <a href="single-post.html" className="btn-rm">
                   Read More <i className="lnr lnr-arrow-right"></i>
