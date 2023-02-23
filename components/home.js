@@ -48,7 +48,7 @@ export default function home() {
                     </li>
                     <li className="nav-item">
                       <a className="page-scroll" href="#portfolios">
-                        Gallerie
+                        Galerie
                       </a>
                     </li>
                     <li className="nav-item">
