@@ -12,7 +12,7 @@ export default function portfolio() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.2s"
               >
-                Notre Gallerie
+                Notre Galerie
               </h4>
               <p
                 className="wow fadeInUp"
@@ -66,7 +66,7 @@ export default function portfolio() {
           data-wow-duration="1.3s"
           data-wow-delay="0.4s"
         >
-          <img src="/images/portfolio-3.jpeg" alt="portfolio" />
+          <img src="/images/portofolio-10.jpg" alt="portfolio" />
           <div className="portfolio_content">
             <ul className="meta">
               <li>

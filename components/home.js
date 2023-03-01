@@ -48,11 +48,11 @@ export default function home() {
                     </li>
                     <li className="nav-item">
                       <a className="page-scroll" href="#portfolios">
-                        Gallerie
+                        Galerie
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="page-scroll" href="#team">
+                      <a className="page-scroll" href="#blog">
                         Equipe
                       </a>
                     </li>
@@ -73,7 +73,7 @@ export default function home() {
       <div className="header_hero">
         <div
           className="single_hero bg_cover d-flex align-items-center"
-          style={{ backgroundImage: "url(/images/hero.jpeg)" }}
+          style={{ backgroundImage: "url(/images/hero.png)" }}
         >
           <div className="container">
             <div className="row justify-content-center">
@@ -84,9 +84,10 @@ export default function home() {
                     data-wow-duration="1.3s"
                     data-wow-delay="0.2s"
                   >
-                    Aguerris et déterminés, <br /> Nous le sommes
+                    Nous sommes aguerris <br />
+                    et déterminés
                   </h2>
-                  <p
+                  {/* <p
                     className="wow fadeInUp"
                     data-wow-duration="1.3s"
                     data-wow-delay="0.5s"
@@ -94,7 +95,7 @@ export default function home() {
                     Face aux grandes mutations énergetiques de l' heure, nous
                     nous taillons une place de choix et non le moindre dans le
                     secteur des hydrocarbures dans le monde.
-                  </p>
+                  </p> */}
                   <a
                     href="#features"
                     className="main-btn wow fadeInUp"

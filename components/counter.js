@@ -53,7 +53,7 @@ export default function counter() {
                 <h3>
                   <span className="counter">745</span>
                 </h3>
-                <h4>Personnes nous aimes</h4>
+                <h4>Personnes nous aiment</h4>
               </div>
             </div>
           </div>

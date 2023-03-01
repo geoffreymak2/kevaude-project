@@ -54,7 +54,10 @@ export default function newFooter() {
                   <h3>Nous Contacter</h3>
                   <div className="contact-address">
                     <p>
-                      Adresse: <span>Basoko n° 3968 Gombe-Kinshasa/RDC</span>
+                      Adresse:{" "}
+                      <span>
+                        4 appartement 21, avenue batetela, Gombe-Kinshasa/RDC
+                      </span>
                     </p>
                     {/* <p>Kinshasa, Gémena, Lubumbashi, Lualaba </p> */}
                     <p className="phone">
@@ -64,12 +67,12 @@ export default function newFooter() {
                       </span>
                     </p>
                     <p className="email">
-                      E-mail: <span>(infos@groupekevaude.com)</span>
+                      E-mail: <span>(secretariat@groupekevaude.com)</span>
                     </p>
                   </div>
                   <div className="social-icons">
                     <ul>
-                      <li className="facebook">
+                     {/* <li className="facebook">
                         <a href="#">
                           <i className="fa fa-facebook"></i>
                         </a>
@@ -84,7 +87,7 @@ export default function newFooter() {
                           <i className="fa fa-google-plus"></i>
                         </a>
                       </li>
-                      {/* <li className="linkedin">
+                       <li className="linkedin">
                         <a href="#">
                           <i className="fa fa-linkedin"></i>
                         </a>
@@ -129,7 +132,7 @@ export default function newFooter() {
                               errors.email && "is-invalid"
                             }`}
                             name="email"
-                            placeholder="Votre Adress Email"
+                            placeholder="Votre Adresse Email"
                             {...register("email", {
                               required: true,
                               pattern:
@@ -150,7 +153,6 @@ export default function newFooter() {
                             }`}
                             name="message"
                             placeholder="Votre Message"
-                            name="message"
                             {...register("message", {
                               required: true,
                             })}
@@ -234,9 +236,9 @@ export default function newFooter() {
             <div className="col-lg-6 col-sm-6 col-xs-12">
               <div className="copyright">
                 <p>
-                  Tous droit reservé &copy; 2021 - Dévelopé par{" "}
-                  <a rel="nofollow" href="https://mbokart-concept.net">
-                    Mbok'art Concept
+                  Tous droit reservé &copy; 2023 - Développé par{" "}
+                  <a rel="nofollow" href="https://mbokartconcept.net">
+                    Mbok'Art Concept
                   </a>
                 </p>
               </div>

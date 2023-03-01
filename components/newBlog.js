@@ -40,13 +40,17 @@ export default function newBlog() {
                   </span>
                 </div>
                 <h3>
-                  <a href="single-post.html">Mr BOBOZO Bobo Newman</a>
+                  <a href="single-post.html">M. BOBOZO </a>
                 </h3>
                 <p>
-                  Bobo Newman, est un homme pragmatique et ambitieux dont les
-                  ambitions sont entre autres offrir à la RDC une nouvelle
-                  classe d'homme d'affaire nationaux capables de relever les
-                  défis économiques.
+                  M. Bobozo a commencé dans les années 2000. D'abord en tant que
+                  négociant, puis en tant qu'associé dans le domaine des
+                  intrants.
+                  <br /> M. Bobozo détient aujourd'hui 100 % du Groupe Kevaude,
+                  dans lequel il est Directeur Général du groupe.
+                  <br />
+                  Aujourd'hui, Groupe Kevaude se compose de plusieurs entités,
+                  avec un chiffre d'affaires en croissance continue.
                 </p>
                 {/* <a href="single-post.html" className="btn-rm">
                   Read More <i className="lnr lnr-arrow-right"></i>

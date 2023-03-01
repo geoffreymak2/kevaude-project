@@ -2,7 +2,7 @@ import React from "react";
 
 export default function features() {
   return (
-    <section id="features" className="features_area pt-120">
+    <section id="features" className="features_area">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
@@ -19,8 +19,7 @@ export default function features() {
                 data-wow-duration="1.3s"
                 data-wow-delay="0.4s"
               >
-                Nous nous taillons une place de choix et non le moindre dans le
-                secteur des hydrocarbures dans le monde
+                Groupe Kevaude s'affirme dans le secteur des hydrocarbures.
               </p>
             </div>
           </div>
@@ -30,14 +29,29 @@ export default function features() {
             <div
               className="single_features text-center mt-30 wow fadeInUp"
               data-wow-duration="1.3s"
+              data-wow-delay="0.6s"
+            >
+              <i className="lni lni-bolt"></i>
+              <h4 className="features_title">Nos objectifs</h4>
+              <p>
+                Défier toute concurrence liée au prix et participer à la
+                reconstitution du pays par le développement des infrastructures
+                de base dans le Nord et Sud-Ubangi.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-7">
+            <div
+              className="single_features text-center mt-30 wow fadeInUp"
+              data-wow-duration="1.3s"
               data-wow-delay="0.2s"
             >
               <i className="lni lni-layers"></i>
-              <h4 className="features_title">La Qualité de Nos Produits</h4>
+              <h4 className="features_title">La qualité de nos produits</h4>
               <p>
-                Le Groupe Kevaude commercialise les produits petroliers raffinés
-                à travers ses reseaux de distribution et ses aires
-                d'approvisionnement dans les ports du Pool Malebo.
+                Groupe Kevaude commercialise les produits pétroliers raffinés à
+                travers son réseau de distribution et ses aires
+                d'approvisionnement dans le port du Pool Malebo.
               </p>
             </div>
           </div>
@@ -48,26 +62,11 @@ export default function features() {
               data-wow-delay="0.4s"
             >
               <i className="lni lni-layout"></i>
-              <h4 className="features_title">La Livraison de Nos Produits</h4>
+              <h4 className="features_title">La livraison de nos produits</h4>
               <p>
-                Nos unités fluviales assurent une distribution dans le Grand
-                Equateur et dans tout le pays en assurant une autonomie en
-                produits et de surcroit le désenclavement des zones forestières.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-7">
-            <div
-              className="single_features text-center mt-30 wow fadeInUp"
-              data-wow-duration="1.3s"
-              data-wow-delay="0.6s"
-            >
-              <i className="lni lni-bolt"></i>
-              <h4 className="features_title">Nos Objectif</h4>
-              <p>
-                Défiant toute concurrence liée au prix et participe à la
-                reconstitution du pays par l'aménagement des infrastructures de
-                base dans le Sud-Ubangi et au Nord-Ubangi.
+                Nos unités fluviales assurent la distribution dans le Grand
+                Équateur et dans tout le pays en assurant l'autonomie des
+                produits ainsi que l'ouverture des zones forestières.
               </p>
             </div>
           </div>
