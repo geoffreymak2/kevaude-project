@@ -56,7 +56,7 @@ export default function newFooter() {
                     <p>
                       Adresse:{" "}
                       <span>
-                        4 appartement 21, avenue batetela, Gombe-Kinshasa/RDC
+                        4 avenue batetela, appartement 21, Gombe-Kinshasa/RDC
                       </span>
                     </p>
                     {/* <p>Kinshasa, Gémena, Lubumbashi, Lualaba </p> */}
